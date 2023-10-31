@@ -1,0 +1,418 @@
+*{ 
+    margin: 0%;
+    padding:0%;
+}
+body{
+    margin: 0%;
+    padding:0%;
+}
+.Header{
+    width: 100vw;
+    height: 13vw;
+    margin-top: 0%;
+    border: 1px solid black ; 
+    background-color: white;
+    
+}
+.Header img{
+    width: 15vw;
+    height: 12vw;
+    margin: 3px;  
+    margin-left: 3%;
+    float: left;
+    
+    
+  }
+.Header p{
+    font-family:Matura MT Script Capitals;
+    font-size: 5vw;
+    color:brown;
+}
+.Header h1{
+    font-family:arial;
+    color:blue;
+    text-decoration: underline;
+    cursor:hand ;
+    font-size: 3vw;
+}
+.header2{
+    width: 100vw;
+    height: 3.5vw;
+    margin-top:0%;
+    border: 1px solid black;
+    background-color:orange ;
+    
+     
+    }
+.ss{
+    width: 19vw;
+    height: 3vw;
+    border-radius: 10px;
+    margin-top: 0.1vw;
+    background-color: blue;
+    font-size: 2vw;
+    text-align: center;
+    color: aliceblue;
+    font-family:arial black ;
+    border-color: blue;
+
+}
+.ss:hover{
+    background-color: darkblue;
+    cursor: hand ;
+    border-color: darkblue;
+
+}
+.side{
+    width: 20vw;
+    height:48vw;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkblue;
+    font-family:Matura MT Script Capitals;
+    font-size: 1.7vw;
+    margin-top: 5px;
+    float: left;
+}
+.up{
+    width: 90%;
+    margin-top: 13%;
+    border: 2px solid black;
+    box-shadow: inset;
+}
+.down{
+    width: 90%;
+    margin-top: 5%;
+    border: 2px solid black;
+    box-shadow: inset;
+}
+.main{
+    width: 73vw;
+    height: 48vw;
+    border: 5px;
+    float: right;
+    border-style: dashed;
+    border-color: darkblue;
+    position: relative;
+    margin-top: 5px;
+    text-align:  justify;
+    justify-content:left;
+    font-family: arial black;
+    margin-right: 2vw;
+}
+
+.main h1{
+    margin-top: 1vw;
+    font-size: 3vw;
+}
+.main h3{
+    font-size: 2vw;
+}
+
+/*aboutpagecss*/
+h2{
+    font-family:Matura MT Script Capitals;
+    color: black;
+    text-align: right;
+    margin-right: 6%;
+
+}
+.pic{
+    width: 450px;
+    height: 450px;
+    margin-left:10%;
+    margin-top: 3%;
+    float: left;
+}
+.latter{
+    width: 450px;
+    height: 450px;
+    float: right;  
+    margin-right:10%;
+    margin-top: 3%;
+    background-color: rgb(44, 237, 243);
+    border: 8px solid blue;
+    border-style: dashed;
+    
+}
+.latter h1{
+    margin-top: 20%;
+    margin-left: 5%;
+    font-family: algerian;
+    font-size: 25px;
+}
+.latter ol li{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+.contactimg{
+
+    width: 500px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 30px;
+    -webkit-box-reflect:below  0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    float: left;
+}
+.details{
+    width: 500px;
+    height: 410px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+    border: 0px solid black;
+
+}
+.call{
+    width: 30px;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+}
+.details h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    font-size: 25px;
+}
+.whatsapp{
+    width: 30px;
+    height: 30px;
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+}
+#wt{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.gmail{
+    width: 30px;
+    height: 30px;
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+}
+#gmail{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    font-size: 25px;
+}
+#more{
+    font-family: forte;
+    font-size: 35px;
+}
+.instagram{
+    width: 30px;
+    height: 30px;
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+}
+#insta{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    margin-top: 1%;
+    margin-left: 4%;
+    float: left;
+
+
+}
+#fb{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    margin-top: 1%;
+    margin-left: 5%;
+    float: left;
+}
+#twitter{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.address{
+    border:0px solid black;
+    width:700px;
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.address h2{
+    font-family: algerian;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.address h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+}
+.body{
+    width: 100%;
+    height: 74%;
+    background-image: url("file:///D:/web%20project/images/bg%202.jfif");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+     
+}
+.selection{
+    width: 300px; 
+    height: 200px; 
+    background-color: chocolate;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 40%;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    
+    
+    }
+    .selection.Employee::after{
+        display: none;
+    }
+    .selection.Employee::before{
+        display:block;
+    }
+
+.Employee{
+    width: 70%;
+    height: 20%;
+    border-radius: 15px;
+    margin-top: 2%;
+    background-color: blueviolet;
+    border-color: violet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: white;
+}
+.Employee:hover{
+    cursor: hand;
+    background-color: blue;
+    border-color: darkblue;
+    
+}
+.Company{
+    width: 70%;
+    height: 20%;
+    border-radius: 15px;
+    margin-top: 2%;
+    background-color: blueviolet;
+    border-color: violet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: white;
+
+    animation-name: form;
+    animation-duration: infinite;
+    animation-delay: 0s;
+    }
+
+.Company:hover{
+    cursor: hand;
+    background-color: blue;
+    border-color: darkblue;
+    
+}
+.Employeeform{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black ;
+    background-color: brown;
+    display:   ;
+    margin-top: 30px;
+    margin-left: 30% ;
+
+}
+.Employeeform h1{
+    font-family: cursive;
+    color: blue;
+    width: 100%;
+    height: 10%;
+    background-color: cyan;
+    border-bottom: 2px solid blue;
+}
+.Employeeform h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: left;
+    margin-top: 5px;
+    
+        
+}
+#name{
+    width: 100%;
+    height: 30px;
+    font-size: large;
+    display: flex;
+    flex-direction: right;
+}
+#fathername{
+    width: 100%;
+    height: 30px;
+    font-size: large;
+    float: right;
+}
+#DOB{
+    width: 100%;
+    height: 30px;
+    font-size: large;
+    float: right;
+}
+#Edu{
+    width: 100%;
+    height: 30px;
+    font-size: large;
+    float: right;
+    cursor: hand;
+}
+
+#phone{
+    width: 100%;
+    height: 30px;
+    font-size: large;
+    float: right;
+}
+#gmail{
+        width: 100%;
+        height: 30px;
+        font-size: large;
+        float: right;
+    }
+.submit{
+    width: 30%;
+    height: 30px;
+    font-size: large;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    cursor: hand;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white
+}
+.submit:hover{
+    background-color: blue;
+    border-color: blueviolet;
+}
