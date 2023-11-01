@@ -118,8 +118,9 @@ h2{
 
 }
 .pic{
-    width: 450px;
-    height: 450px;
+    width: 45vw;
+    height: 45vw;
+    
     margin-left:10%;
     margin-top: 3%;
     float: left;
