@@ -16,7 +16,15 @@ function registration() {
     window.location.assign("registration.html").void
 
 }
-function openempform(){
-    document.getElementById("Myform2").style.display = "none";
+function registrationf(){
+    var a= document.getElementsByClassName("pass").value
+    var b= document.getElementsByClassName("conpass").value
+    if(a==b) {       
+        window.location.assign("");
+        alert("You are Registered Now!");
+    }
+    else{
+        alert("Password should be Same")
+    }
 }
 
