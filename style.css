@@ -108,6 +108,16 @@ body{
 .main h3{
     font-size: 2vw;
 }
+.developer{
+    font-family:Matura MT Script Capitals;
+    font-size: 2vw;
+    float: right;
+    margin-bottom: 0%;
+    margin-right:1% ;
+    margin-top: 13%;
+    color: green;
+}
+
 
 /*aboutpagecss*/
 h2{
