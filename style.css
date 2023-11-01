@@ -118,13 +118,13 @@ body{
     color: green;
 }
 
-
 /*aboutpagecss*/
 h2{
     font-family:Matura MT Script Capitals;
     color: black;
     text-align: right;
     margin-right: 6%;
+    font-size: 2vw;
 
 }
 .pic{
@@ -280,150 +280,51 @@ h2{
     font-size: 3vw;
     text-align: center;
 }
-.body{
-    width: 100%;
-    height: 74%;
-    background-image: url("file:///D:/web%20project/images/bg%202.jfif");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-     
-}
-.selection{
-    width: 300px; 
-    height: 200px; 
-    background-color: chocolate;
-    border-radius: 15px;
-    margin-top: 40px;
-    margin-left: 40%;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    
-    
-    }
-    .selection.Employee::after{
-        display: none;
-    }
-    .selection.Employee::before{
-        display:block;
-    }
+/*registration*/
 
-.Employee{
-    width: 70%;
-    height: 20%;
-    border-radius: 15px;
-    margin-top: 2%;
-    background-color: blueviolet;
-    border-color: violet;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
-    color: white;
+.regf{
+    width: 30vw;
+    height: 35vw;
+    background-color: darkblue;
+    border: 5px  solid cyan;
+    border-color: cyan;
+    margin-top: 2vw;
+    margin-left: 35vw;
 }
-.Employee:hover{
-    cursor: hand;
-    background-color: blue;
-    border-color: darkblue;
-    
-}
-.Company{
-    width: 70%;
-    height: 20%;
-    border-radius: 15px;
-    margin-top: 2%;
-    background-color: blueviolet;
-    border-color: violet;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
-    color: white;
-
-    animation-name: form;
-    animation-duration: infinite;
-    animation-delay: 0s;
-    }
-
-.Company:hover{
-    cursor: hand;
-    background-color: blue;
-    border-color: darkblue;
-    
-}
-.Employeeform{
-    width: 700px;
-    height: 500px;
-    border: 1px solid black ;
-    background-color: brown;
-    display:   ;
-    margin-top: 30px;
-    margin-left: 30% ;
-
-}
-.Employeeform h1{
+label{
     font-family: cursive;
-    color: blue;
-    width: 100%;
-    height: 10%;
-    background-color: cyan;
-    border-bottom: 2px solid blue;
+    color: #ddd;
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-left: 3%;
 }
-.Employeeform h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    text-align: left;
-    margin-top: 5px;
-    
-        
-}
-#name{
-    width: 100%;
-    height: 30px;
-    font-size: large;
-    display: flex;
-    flex-direction: right;
-}
-#fathername{
-    width: 100%;
-    height: 30px;
-    font-size: large;
-    float: right;
-}
-#DOB{
-    width: 100%;
-    height: 30px;
-    font-size: large;
-    float: right;
-}
-#Edu{
-    width: 100%;
-    height: 30px;
-    font-size: large;
-    float: right;
-    cursor: hand;
+.registraiontyp{
+    margin-left: 3%;
 }
 
-#phone{
-    width: 100%;
-    height: 30px;
-    font-size: large;
-    float: right;
-}
-#gmail{
-        width: 100%;
-        height: 30px;
-        font-size: large;
-        float: right;
+.feild{
+    width: 90%;
+    height: 3vw;
+    margin-left: 3%;
+    border: 1px solid red;
     }
 .submit{
-    width: 30%;
-    height: 30px;
-    font-size: large;
+    width: 90%;
+    height: 3vw;
+    margin-left: 3%;
+    margin-top: 2%;
     background-color: blueviolet;
-    border-color: blueviolet;
-    cursor: hand;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:white
+    border: 2px solid #ddd;
 }
-.submit:hover{
-    background-color: blue;
-    border-color: blueviolet;
+#pass{
+    width: 90%;
+    height: 3vw;
+    margin-left: 3%;
+    border: 1px solid red;
+}
+#conpass{
+    width: 90%;
+    height: 3vw;
+    margin-left: 3%;
+    border: 1px solid red;
 }
