@@ -151,8 +151,8 @@ h2{
 /*contact page*/
 .contactimg{
 
-    width: 20vw;
-    height: 10vw;
+    width: 40vw;
+    height: 25vw;
     margin-top: 5%;
     margin-left: 10%;
     border-radius: 30px;
@@ -160,7 +160,7 @@ h2{
     float: left;
 }
 .details{
-    width: 30vw;
+    width: 45vw;
     height: 27vw;
     float: right;
     margin-right: 0%;
